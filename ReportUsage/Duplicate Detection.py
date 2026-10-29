@@ -43,6 +43,6 @@ df_unique.to_csv("Fact ReportSectionViews_geendupes.csv", index=False)
 # Maken datasets zonder dubbele waardes
 df_new = pd.read_csv("Fact ReportSectionViews_geendupes.csv")
 duplicates_new = df_new.duplicated()
-
-print("\n\nDubbele waardes? nieuwe Report Section views:")
+print("\n\nTEST\n===========")
+print("Dubbele waardes? nieuwe Report Section views:")
 print(df2[duplicates2])
